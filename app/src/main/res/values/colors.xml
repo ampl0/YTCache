@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_red">#FF0033</color>
+    <color name="brand_red_dark">#D9002B</color>
+    <color name="brand_red_soft">#FFEAEE</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_muted">#FFF6F6F6</color>
+    <color name="hairline">#FFEAEAEA</color>
+    <color name="text_primary">#FF0F0F0F</color>
+    <color name="text_secondary">#FF606060</color>
+    <color name="text_tertiary">#FF909090</color>
+    <color name="thumb_bg">#FFE9E9E9</color>
+    <color name="scrim_strong">#E6000000</color>
+    <color name="scrim_soft">#99000000</color>
+    <color name="badge_bg">#CC000000</color>
+    <color name="player_bg">#FF0A0A0A</color>
+    <color name="capture_pill">#F2141414</color>
+</resources>

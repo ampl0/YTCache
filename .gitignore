@@ -1,0 +1,25 @@
+# build output
+.gradle/
+build/
+app/build/
+.kotlin/
+*.iml
+
+# local machine config
+local.properties
+.idea/
+.DS_Store
+
+# signing material
+keystore/
+*.jks
+*.keystore
+
+# build artifacts are attached to GitHub releases, not committed
+artifacts/*.apk
+artifacts/*.aab
+
+# scratch
+.build/
+*.log
+*.hprof
