@@ -20,7 +20,7 @@ start at [AI-AGENT-GUIDE.md](AI-AGENT-GUIDE.md).
 - The script tees every `SourceBuffer.appendBuffer` fragment and sends it to Kotlin as base64.
 - Fragments are stored as `<videoId>/<streamKey>/<seq>.bin`, with the init segment at `0.bin`.
 - The offline player reads those files through a `WebViewAssetLoader` and appends them into two
-  `MediaBuffer`s (video, audio). This is why every codec the phone can decode offline-plays.
+  `SourceBuffer`s (video, audio). This is why every codec the phone can decode offline-plays.
 - Export is a *remux* (copy samples with `MediaMuxer`), never a transcode, and refuses politely
   when the codec pair has no legal container.
 - The seek bar uses the video's real duration; the cached window is drawn inside it.
